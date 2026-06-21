@@ -185,19 +185,19 @@ After exhausting the 2,000 free monthly cloud executions, migrated Shuffle to a 
 ## Screenshots
 
 ### 1. Wazuh — Mimikatz credential-dumping alert
-![Wazuh Alert](screenshots/01-wazuh-alert.png)
+![Wazuh Alert](screenshots/Event-Logs.png)
 *Wazuh detected Mimikatz accessing lsass.exe and classified it as MITRE T1003.001 — LSASS Memory*
 
 ---
 
 ### 2. Shuffle — Full workflow execution
-![Shuffle Workflow](screenshots/02-shuffle-workflow.png)
+![Shuffle Workflow](screenshots/Shuffle-Workflow.png)
 *Self-hosted Shuffle workflow: Webhook → hash extraction → VirusTotal → TheHive, all steps succeeding*
 
 ---
 
 ### 3. VirusTotal enrichment result
-![VirusTotal Result](screenshots/03-virustotal-result.png)
+![VirusTotal Result](screenshots/Virustotal-Fetching-Results.png)
 *VirusTotal returned 61/67 engine detections for the extracted hash*
 
 ---
