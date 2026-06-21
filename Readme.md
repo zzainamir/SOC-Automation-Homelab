@@ -209,7 +209,7 @@ After exhausting the 2,000 free monthly cloud executions, migrated Shuffle to a 
 ---
 
 ### 5. Architecture diagram
-![Architecture](screenshots/05-architecture.png)
+![Architecture](Architecture.png)
 *Full pipeline architecture across local PC and two Azure VMs*
 
 ---
